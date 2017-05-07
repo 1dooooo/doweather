@@ -11,8 +11,8 @@ public class Suggestion {
     @SerializedName("comf")
     public  Comfort comfort;
 
-    @SerializedName("cw")
-    public CarWash carWash;
+    @SerializedName("drsg")
+    public DressCloth dresscloth;
 
     public Sport sport;
 
@@ -21,7 +21,7 @@ public class Suggestion {
         public String info;
     }
 
-    public class CarWash{
+    public class DressCloth{
         @SerializedName("txt")
         public String info;
     }
